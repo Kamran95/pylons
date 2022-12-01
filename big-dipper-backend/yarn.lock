@@ -319,12 +319,12 @@
     rxjs "6"
     semver "^7.3.5"
 
-"@ledgerhq/devices@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/@ledgerhq/devices/-/devices-7.0.0.tgz"
+"@ledgerhq/devices@^7.0.0", "@ledgerhq/devices@^7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/devices/-/devices-7.0.5.tgz#2b3f69b84d4bccb2c4b1d34e534444da862f4880"
   dependencies:
-    "@ledgerhq/errors" "^6.10.1"
-    "@ledgerhq/logs" "^6.10.0"
+    "@ledgerhq/errors" "^6.12.1"
+    "@ledgerhq/logs" "^6.10.1"
     rxjs "6"
     semver "^7.3.5"
 
@@ -332,9 +332,9 @@
   version "5.50.0"
   resolved "https://registry.npmjs.org/@ledgerhq/errors/-/errors-5.50.0.tgz"
 
-"@ledgerhq/errors@^6.10.1":
-  version "6.10.1"
-  resolved "https://registry.npmjs.org/@ledgerhq/errors/-/errors-6.10.1.tgz"
+"@ledgerhq/errors@^6.10.1", "@ledgerhq/errors@^6.12.1":
+  version "6.12.1"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/errors/-/errors-6.12.1.tgz#99ad10bd528942bdfde0ef3d4d0dce658f6f4405"
 
 "@ledgerhq/hw-transport-web-ble@^6.27.2":
   version "6.27.2"
@@ -346,14 +346,14 @@
     "@ledgerhq/logs" "^6.10.0"
     rxjs "6"
 
-"@ledgerhq/hw-transport-webusb@^6.27.2":
-  version "6.27.2"
-  resolved "https://registry.npmjs.org/@ledgerhq/hw-transport-webusb/-/hw-transport-webusb-6.27.2.tgz"
+"@ledgerhq/hw-transport-webusb@^6.27.8":
+  version "6.27.8"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport-webusb/-/hw-transport-webusb-6.27.8.tgz#d7933cae3e63ee66c752e535eca7ef6e785583a3"
   dependencies:
-    "@ledgerhq/devices" "^7.0.0"
-    "@ledgerhq/errors" "^6.10.1"
-    "@ledgerhq/hw-transport" "^6.27.2"
-    "@ledgerhq/logs" "^6.10.0"
+    "@ledgerhq/devices" "^7.0.5"
+    "@ledgerhq/errors" "^6.12.1"
+    "@ledgerhq/hw-transport" "^6.27.8"
+    "@ledgerhq/logs" "^6.10.1"
 
 "@ledgerhq/hw-transport@^5.25.0":
   version "5.51.1"
@@ -363,21 +363,21 @@
     "@ledgerhq/errors" "^5.50.0"
     events "^3.3.0"
 
-"@ledgerhq/hw-transport@^6.27.2":
-  version "6.27.2"
-  resolved "https://registry.npmjs.org/@ledgerhq/hw-transport/-/hw-transport-6.27.2.tgz"
+"@ledgerhq/hw-transport@^6.27.2", "@ledgerhq/hw-transport@^6.27.8":
+  version "6.27.8"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/hw-transport/-/hw-transport-6.27.8.tgz#57ece7e2b726216df698767de6828478fbe461e1"
   dependencies:
-    "@ledgerhq/devices" "^7.0.0"
-    "@ledgerhq/errors" "^6.10.1"
+    "@ledgerhq/devices" "^7.0.5"
+    "@ledgerhq/errors" "^6.12.1"
     events "^3.3.0"
 
 "@ledgerhq/logs@^5.50.0":
   version "5.50.0"
   resolved "https://registry.npmjs.org/@ledgerhq/logs/-/logs-5.50.0.tgz"
 
-"@ledgerhq/logs@^6.10.0":
-  version "6.10.0"
-  resolved "https://registry.npmjs.org/@ledgerhq/logs/-/logs-6.10.0.tgz"
+"@ledgerhq/logs@^6.10.0", "@ledgerhq/logs@^6.10.1":
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-6.10.1.tgz#5bd16082261d7364eabb511c788f00937dac588d"
 
 "@lit/reactive-element@^1.3.0":
   version "1.3.3"
