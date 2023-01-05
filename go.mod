@@ -28,11 +28,11 @@ require (
 	github.com/tendermint/tm-db v0.6.7
 	github.com/zach-klippenstein/goregen v0.0.0-20160303162051-795b5e3961ea
 	google.golang.org/genproto v0.0.0-20220822174746-9e6da59bd2fc
-	google.golang.org/grpc v1.49.0
+	google.golang.org/grpc v1.50.1
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-require github.com/cosmos/gogoproto v1.4.1
+require github.com/cosmos/gogoproto v1.4.3
 
 require (
 	cloud.google.com/go v0.100.2 // indirect
