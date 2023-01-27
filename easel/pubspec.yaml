@@ -54,7 +54,7 @@ dependencies:
   pylons_sdk:
     path: ../dart_sdk
 
-  google_fonts: ^3.0.1
+  google_fonts: ^4.0.0
 
   fixnum: ^1.0.0
 
