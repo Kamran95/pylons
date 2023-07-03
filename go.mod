@@ -20,7 +20,7 @@ require (
 	github.com/google/cel-go v0.12.4
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/ignite/cli v0.24.0
-	github.com/rogpeppe/go-internal v1.9.0
+	github.com/rogpeppe/go-internal v1.11.0
 	github.com/spf13/cast v1.5.0
 	github.com/spf13/cobra v1.5.0
 	github.com/stretchr/testify v1.8.0
@@ -33,6 +33,8 @@ require (
 )
 
 require github.com/cosmos/gogoproto v1.4.1
+
+require golang.org/x/mod v0.9.0 // indirect
 
 require (
 	cloud.google.com/go v0.100.2 // indirect
