@@ -978,9 +978,9 @@ bootstrap@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.1.tgz#45f97ff05cbe828bad807b014d8425f3aeb8ec3a"
 
-bootswatch@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/bootswatch/-/bootswatch-5.2.0.tgz"
+bootswatch@^5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/bootswatch/-/bootswatch-5.3.1.tgz#7eb1e8c39b9c049d4d4617e1ba222561758e1e8b"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
