@@ -3240,10 +3240,6 @@ lodash-es@^4.17.15:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
 
-lodash._reinterpolate@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz"
-
 lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://registry.npmjs.org/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz"
@@ -3287,19 +3283,6 @@ lodash.isstring@^4.0.1:
 lodash.once@^4.0.0:
   version "4.1.1"
   resolved "https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz"
-
-lodash.template@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.npmjs.org/lodash.template/-/lodash.template-4.5.0.tgz"
-  dependencies:
-    lodash._reinterpolate "^3.0.0"
-    lodash.templatesettings "^4.0.0"
-
-lodash.templatesettings@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/lodash.templatesettings/-/lodash.templatesettings-4.2.0.tgz"
-  dependencies:
-    lodash._reinterpolate "^3.0.0"
 
 lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.21:
   version "4.17.21"
@@ -3376,12 +3359,6 @@ merge-anything@^2.2.4:
 mersenne-twister@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/mersenne-twister/-/mersenne-twister-1.1.0.tgz"
-
-message-box@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.npmjs.org/message-box/-/message-box-0.2.7.tgz"
-  dependencies:
-    lodash.template "^4.5.0"
 
 meteor-node-stubs@^1.2.5:
   version "1.2.5"
@@ -3471,9 +3448,9 @@ moment-timezone@^0.5.35:
   version "2.29.4"
   resolved "https://registry.npmjs.org/moment/-/moment-2.29.4.tgz"
 
-mongo-object@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/mongo-object/-/mongo-object-0.1.4.tgz"
+mongo-object@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/mongo-object/-/mongo-object-3.0.1.tgz#e0d4a3b2348115175ed19bebd3f99a12bb387983"
 
 ms@2.0.0:
   version "2.0.0"
@@ -4429,13 +4406,12 @@ signal-exit@^3.0.2:
   version "3.0.7"
   resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.7.tgz"
 
-simpl-schema@^1.12.3:
-  version "1.12.3"
-  resolved "https://registry.npmjs.org/simpl-schema/-/simpl-schema-1.12.3.tgz"
+simpl-schema@^3.4.6:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/simpl-schema/-/simpl-schema-3.4.6.tgz#dfebf52b5ca26350315915e3994ffebd515b29e6"
   dependencies:
     clone "^2.1.2"
-    message-box "^0.2.7"
-    mongo-object "^0.1.4"
+    mongo-object "^3.0.1"
 
 slice-ansi@^2.1.0:
   version "2.1.0"
