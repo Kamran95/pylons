@@ -4857,9 +4857,9 @@ vm-browserify@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
 
-voca@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/voca/-/voca-1.4.0.tgz"
+voca@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/voca/-/voca-1.4.1.tgz#9f84939e1aaca80c39158049d3321c67c6d2ed0a"
 
 warning@^3.0.0:
   version "3.0.0"
